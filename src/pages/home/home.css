@@ -1,0 +1,95 @@
+.home-container {
+    background-color: #0B003D;
+    width: 100%;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 101px;
+}
+
+/* Text */
+.apresentation-text .hello,
+.apresentation-text span {
+    color: #F2DC33;
+}
+
+.apresentation-text .my-name,
+.apresentation-text .devfront {
+    color: #ffffff;
+}
+
+.apresentation-text .subtitle {
+    color: #D1CCDA;
+}
+
+.apresentation-text .hello {
+    font-size: 18px;
+}
+
+.apresentation-text .my-name {
+    font-size: 42px;
+    padding-top: 10px;
+}
+
+.apresentation-text .devfront {
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.apresentation-text .subtitle {
+    font-size: 16px;
+    width: 400px;
+    padding-top: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.notebook-img .notebook {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 850px) {
+    .home-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding-bottom: 110px;
+    }
+
+    .notebook-img {
+        max-width: 400px;
+        height: auto;
+
+    }
+
+    .apresentation-text {
+        position: relative;
+        margin: 0 auto;
+        top: -50px;
+    }
+
+    .apresentation-text .hello {
+        text-align: center;
+    }
+
+    .apresentation-text .my-name {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .apresentation-text .devfront {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .apresentation-text .subtitle {
+        max-width: 300px;
+    }
+}
