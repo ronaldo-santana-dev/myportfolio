@@ -13,6 +13,6 @@ Para instalar todas as dependências do projeto:
 Para rodar o projeto
 ### `npm start`
 
-O projeto será executado no modo de desenvolvimento em:<br />
-[http://localhost:3000] no navegador
+O projeto será executado no modo de desenvolvimento na porta:<br />
+### [http://localhost:3000]
 
