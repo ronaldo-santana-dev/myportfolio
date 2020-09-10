@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Assim que você abrir o projeto no editor de texto, você faz os seguintes comandos:
 
 Para instalar todas as dependências do projeto:
-## `npm install` 
+### `npm install` 
 
 Para rodar o projeto
 ### `npm start`
