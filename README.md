@@ -14,5 +14,5 @@ Para rodar o projeto:
 ### `npm start`
 
 O projeto será executado no modo de desenvolvimento na porta:<br />
-### http://localhost:3000
+### [http://localhost:3000]
 
