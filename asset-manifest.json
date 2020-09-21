@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d40ca035.chunk.css",
+    "main.js": "/static/js/main.6fbc6244.chunk.js",
+    "main.js.map": "/static/js/main.6fbc6244.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.2a4e93e2.chunk.js": "/static/js/2.2a4e93e2.chunk.js",
+    "static/js/2.2a4e93e2.chunk.js.map": "/static/js/2.2a4e93e2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.af25dbb9d8804d157c33971b2aa024cd.js": "/precache-manifest.af25dbb9d8804d157c33971b2aa024cd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d40ca035.chunk.css.map": "/static/css/main.d40ca035.chunk.css.map",
+    "static/js/2.2a4e93e2.chunk.js.LICENSE.txt": "/static/js/2.2a4e93e2.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.021b9945.svg",
+    "static/media/close.svg": "/static/media/close.d0cda548.svg",
+    "static/media/css.svg": "/static/media/css.2db97d69.svg",
+    "static/media/curriculo.pdf": "/static/media/curriculo.4dc9f9ce.pdf",
+    "static/media/figma.svg": "/static/media/figma.6faeb87f.svg",
+    "static/media/foto.png": "/static/media/foto.774c737a.png",
+    "static/media/git.svg": "/static/media/git.f90ecbc0.svg",
+    "static/media/html5.svg": "/static/media/html5.6196bae1.svg",
+    "static/media/javascript.svg": "/static/media/javascript.f2bd0c0c.svg",
+    "static/media/menu.svg": "/static/media/menu.5d233592.svg",
+    "static/media/notebook.png": "/static/media/notebook.1a78462c.png",
+    "static/media/npm.svg": "/static/media/npm.36750473.svg",
+    "static/media/quem-sou.css": "/static/media/pattern.69c2c2f0.svg",
+    "static/media/portfoliosite.png": "/static/media/portfoliosite.37accd6c.png",
+    "static/media/reactjs.svg": "/static/media/reactjs.19bf974b.svg",
+    "static/media/scalenesite.png": "/static/media/scalenesite.04b946ed.png",
+    "static/media/ux-ux.svg": "/static/media/ux-ux.e1ce9688.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.2a4e93e2.chunk.js",
+    "static/css/main.d40ca035.chunk.css",
+    "static/js/main.6fbc6244.chunk.js"
+  ]
+}
