@@ -1,0 +1,46 @@
+.container-projetos{
+    background-color: #0B003D;
+}
+.content-projetos {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.container-projetos .title-projetos {
+    color: #D6C015;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.site {
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+@media(max-width: 1024px){
+    .site{
+        display: block;
+        margin-top: 0px;
+        margin-left: 15rem;
+    }
+
+}
+
+
+@media(max-width: 500px){
+    .site{
+        display: block;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .container-projetos .title-projetos {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    .imagem-projeto {
+       display: none;
+    }
+
+}

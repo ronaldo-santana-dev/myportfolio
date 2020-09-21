@@ -1,0 +1,24 @@
+.container-projetos-image{
+    width: 537px;
+    height: 401px;
+}
+.content-projetos-image {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.content-projetos-image img {
+    margin-top: 10%;
+}
+
+@media(max-width: 534px) {
+    .container-projetos-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .content-projetos-image img {
+        width: 90%;
+        margin-top: 60px;
+    }
+}

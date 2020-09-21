@@ -1,0 +1,112 @@
+.container-contato {
+    background-color: #131323;
+    height: 79vh;
+}
+.content-contato {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.contato-redes, .contato-email, .contato-whatsapp, footer {
+    color: #D1CCDA;
+}
+.svgs-redes svg {
+    fill: #BBB4CC;
+    margin: 10px;
+}
+.title-contato {
+    color: #D6C015;
+    display: flex;
+    justify-content: center;
+    padding-top: 7vh;
+    font-size: 32px;
+}
+
+.contato-email {
+    display: flex;
+    justify-content: center;
+    background-color: #1F1F33;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 5px;
+
+}
+.contato-email a {
+    color: #D6C015;
+}
+.contato-redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.svgs-redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.svgs-redes svg:hover {
+    fill: #D6C015;
+    transition: 1.5s;
+    animation: movesvg 1s infinite;
+}
+
+
+.contato-whatsapp {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #0C0D1A;
+    width: 100% !important;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-footer {
+    color: #D6C015;
+}
+
+
+@keyframes movesvg {
+    0% { margin-top: 0px; }
+    50% {margin-top: 10px}
+    100%{margin-top: 0px}
+  }
+
+@media(max-width: 500px) {
+
+    .contato-redes, .contato-whatsapp {
+        font-size: 16px;
+    }
+    .contato-email{
+        display: block;
+        line-height: 1.5;
+        width: 90%;
+    }
+    .contato-redes {
+        text-align: center;
+    }
+    .contato-whatsapp {
+        text-align: center;
+    }
+    .container-contato {
+        height: 79vh;
+    }
+    .svgs-redes svg{
+        width: 65px;
+        height: 65px;
+    }
+    footer {
+        font-size: 14px;
+    }
+
+
+}
+

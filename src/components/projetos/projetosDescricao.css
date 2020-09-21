@@ -1,0 +1,82 @@
+.container-projetos-descricao {
+    width: 537px;
+    height: 401px;
+    background-color: #131323;
+}
+
+.content-projetos-descricao {
+    max-width: 450px;
+    margin: 0 auto;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.content-projetos-descricao h1{
+    font-size: 32px;
+    color: #D6C015;
+    
+}
+.descricao {
+    margin-top: 20px
+}
+.content-projetos-descricao p {
+    color: #D1CCDA;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    margin-top: 20px;
+
+}
+p > div {
+    color: #777381;
+}
+
+.link-project {
+    background-color: #D6C015;
+    padding: 15px;
+    color: white;
+    position: relative;
+    top: 30px;
+    border-radius: 5px;
+    width: 150px;
+}
+.link-project:hover{
+    color: #170566;
+}
+
+
+
+/* Celulares */
+@media(max-width: 500px){
+    .container-projetos-descricao {
+        width: 393px;
+        height: 530px;
+        background-color: #131323;
+        width: 100%;
+    }
+
+    .content-projetos-descricao{
+        text-align: center;
+   
+    }
+
+    .content-projetos-descricao p {
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+        line-height: 1.6;
+        font-size: 18px;
+    }
+
+    .content-projetos-descricao h1{
+        font-size: 28px;
+        color: #D6C015;
+        
+    }
+
+    .link-project {
+        margin: 0 auto;
+        width: 200px;
+    }
+
+}

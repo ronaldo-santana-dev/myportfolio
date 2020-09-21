@@ -7,7 +7,7 @@ import './especialidades.css'
 import htmlIcon from '../../assets/icons/conheciments/html5.svg'
 import cssIcon from '../../assets/icons/conheciments/css.svg'
 import javascriptIcon from '../../assets/icons/conheciments/javascript.svg'
-import reactIcon from '../../assets/icons/conheciments/react 3.svg'
+import reactIcon from '../../assets/icons/conheciments/reactjs.svg'
 import boostrapIcon from '../../assets/icons/conheciments/bootstrap.svg'
 import npmIcon from '../../assets/icons/conheciments/npm.svg'
 import gitIcon from '../../assets/icons/conheciments/git.svg'
@@ -20,6 +20,7 @@ const Especialidades = () => {
         <>
              <Navigation />
             <section className="container-especialidades">
+                <h1 className="title-especialidades">&#60;Especialidades /&gt;</h1>
                 <div className="content-boxes">
                     <div className="box">
                         <BoxEspecialidade icon={htmlIcon} name="HTML"/>
