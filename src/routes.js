@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/home/Home.jsx';
 import QuemSou from './pages/quem-sou/QuemSou.jsx';
 import Especialidades from './pages/especialidades/Especialidades.jsx'
@@ -8,7 +8,7 @@ import Contato from './pages/contato/Contato.jsx'
 import Erro from './pages/error/Erro.jsx'
 const routes = () => {
     return(
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route exact path='/' element={<Home />} />
                 <Route path='/myportfolio' element={<Home />} />
@@ -19,7 +19,7 @@ const routes = () => {
                 <Route path='*' element={<Erro />} /> 
                 
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
