@@ -17,7 +17,7 @@ const Projetos = () => {
                 <div className="content-projetos">
                  
                     <span className="site">
-                        <ProjetosDescricao title="Projeto Ronaldo Santana" descricao="Meu site pessoal criado com objetivo de mostrar e divulgar meus trabalhos." data="18/09/2020" skills="HTML, CSS, Javascript, ReactJS" link="#"/>
+                        <ProjetosDescricao title="Projeto Ronaldo Santana" descricao="Meu site pessoal criado com objetivo de mostrar e divulgar meus trabalhos." data="18/09/2020" skills="HTML, CSS, Javascript, ReactJS" link="https://ronaldo-santana-dev.github.io/myportfolio/"/>
                         <ProjetosImage className="imagem-projeto" gradientPrimary="#000533" gradientSecondary="#16148F" image={portfolioImage}/>
                     </span>
 

@@ -18,7 +18,7 @@ const ProjetosDescricao = (props) => {
                         <div>{props.skills}</div>
                     </p>
                     
-                    <a href={props.link} className="link-project">Veja o projeto</a>
+                    <a href={props.link} className="link-project" target="_blank">Veja o projeto</a>
 
                 </div>
             </section>
