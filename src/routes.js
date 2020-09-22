@@ -8,15 +8,14 @@ import Contato from './pages/contato/Contato.jsx'
 import Erro from './pages/error/Erro.jsx'
 const routes = () => {
     return(
-        <HashRouter>
+        <HashRouter> 
             <Routes>
                 <Route exact path='/' element={<Home />} />
-                <Route path='/myportfolio' element={<Home />} />
                 <Route path='/quem-sou' element={<QuemSou />} />
                 <Route path='/especialidades' element={<Especialidades />} />
                 <Route path='/projetos' element={<Projetos />} />
                 <Route path='/contato' element={<Contato />} />
-                <Route path='*' element={<Erro />} /> 
+                <Route path='*' element={<Erro />}/> 
                 
             </Routes>
         </HashRouter>
