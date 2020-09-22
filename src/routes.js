@@ -11,6 +11,7 @@ const routes = () => {
         <BrowserRouter>
             <Routes>
                 <Route exact path='/' element={<Home />} />
+                <Route path='/myportfolio' element={<Home />} />
                 <Route path='/quem-sou' element={<QuemSou />} />
                 <Route path='/especialidades' element={<Especialidades />} />
                 <Route path='/projetos' element={<Projetos />} />
