@@ -1,7 +1,9 @@
 Este projeto foi criado em ReactJS com o objetivo de mostrar o meu portfólio de projetos pessoais como também projetos profissionais.
 
-## Dependencias
-- React-Router-Dom
+## Dependências
+- NPM
+## Pacotes
+- react-router-dom
 
 ## Como rodar o projeto
 
