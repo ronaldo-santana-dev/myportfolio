@@ -18,7 +18,7 @@ const QuemSou = () => {
                             e sou <strong>Desenvolvedor Front-End</strong>. Atualmente eu sou recém formado em Análise
                             e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul.
                             <br />
-                            Durante o periodo da faculdade eu comecei a prestar mais atenção nos 
+                            Durante o periodo da faculdade eu comecei a prestar mais atenção nos detalhes
                             de cada elemento de uma interface e assim fui me apaixonando
                             pelo desenvolvimento front end. Desde então venho estudando as 
                             mais modernas do mercado desde a parte de UI/UX ao desenvolvimento.
