@@ -19,9 +19,9 @@ const QuemSou = () => {
                             e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul.
                             <br />
                             Durante o periodo da faculdade eu comecei a prestar mais atenção nos detalhes
-                            de cada elemento de uma interface e assim fui me apaixonando
-                            pelo desenvolvimento front end. Desde então venho estudando as 
-                            mais modernas do mercado desde a parte de UI/UX ao desenvolvimento.
+                            de cada elemento de uma interface web e assim fui me apaixonando
+                            pelo desenvolvimento front end. Desde então tento me desenvolver cada vez mais
+                            como dev front end desde a parte criação da UI ao desenvolvimento.
                         </p>
                         <div className="curriculo">
                             <a href={curriculo} download="Curriculo_Ronaldo_Front_End"> Baixar CV</a>
